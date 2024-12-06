@@ -4,6 +4,7 @@ This is a simple template to help you write scientific papers or project documen
 ## Why use this template?
 - **Easy to customize**: Quickly update titles, author info, and sections
 - **Ready-to-go examples**: Includes examples for adding images, tables, code, and more
+- **Table of Contents**: Automatically creates a structured table of contents based on added sections
 - **Bibliography support**: Use `.bib` files to manage references
 - **Clean design**: Professional and simple formatting that looks great
 
