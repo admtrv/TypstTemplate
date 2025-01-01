@@ -14,7 +14,7 @@ Typst is a powerful typesetting tool that combines the simplicity of `Markdown` 
 If you’re new to Typst or want to explore its features in more details, check out the official [Typst Documentation](https://typst.app/docs/). It’s a great resource to understand everything this powerful tool can do.
 
 ## Example PDF
-You can check out a precompiled example of this template in the `example.pdf` file included in the repository.
+You can find a precompiled version of the template in `template.pdf` and an example in `example.pdf`, both included in the repository.
 
 ## Contribute
 Feel free to contribute! If you have ideas or find issues, open an issue or submit a pull request. I appreciate your help!

@@ -55,7 +55,22 @@ This section demonstrates how to include an image with citation in the document.
   #figure(
     image("image.jpg", width: 60%), 
     caption: [Image Example],
-  ) <image>
+) <image>
+
+The example below uses a grid layout to place two images next to each other with a small gap between them. The images are referenced as part of a single figure with a shared caption and can be cited using @double-image.
+  
+#align(center + horizon)[]
+  #figure(
+    grid(
+        columns: 2,
+        gutter: 2mm,
+        image("phong1.png", width: 90%),
+        image("phong2.png", width: 90%),
+    ),
+    caption: "Double Image Example"
+) <double-image>
+
+This layout is flexible and allows for the arrangement of more than two images by simply adjusting the `columns` parameter.
 
 == Table
 
@@ -69,7 +84,7 @@ Tables allow for clear and concise data presentation. The example below demonstr
         [y], [5], [10], [15],
     ),
     caption: [Table Example],
-  ) <table>
+) <table>
 
 == Code Block
 
@@ -86,7 +101,7 @@ For technical papers, including code snippets is often necessary. The example be
     }
     ```,
     caption: [Code Example],
-  ) <code>
+) <code>
 
 == Mathematical Equations
 This section demonstrates how to include mathematical equations. For example, the formula for the area of a circle can be written as shown below and referenced using @equation.
@@ -95,10 +110,10 @@ This section demonstrates how to include mathematical equations. For example, th
   #figure(
     $ A = pi r^2 $,
     caption: [Equation Example],
-  ) <equation>
+) <equation>
   
 == Bibliography
 
-The template includes support for adding a bibliography. References are managed using @tanenbaum and. It is included from the `'bibliography.bib'` file.
+The template includes support for adding a bibliography. References are managed using @tanenbaum. It is included from the `'bibliography.bib'` file.
 
 #bibliography("bibliography.bib", full: true)
